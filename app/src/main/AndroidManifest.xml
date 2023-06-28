@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.oxycounter">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OxyCounter">
+        <activity android:name=".ViewInAndOutFragment" android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".OxygenFlow" />
+        <activity android:name=".AddIncomingOrOutgoing" />
+        <activity android:name=".ViewOutgoingFragment" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".ViewIncomingFragment" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".DBManager" />
+        <activity android:name=".DatabaseHelper" />
+        <activity android:name=".DisplayOutgoing" />
+        <activity android:name=".DisplayInAndOut" />
+        <activity android:name=".DisplayIncoming" />
+        <activity android:name=".MainFragment" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

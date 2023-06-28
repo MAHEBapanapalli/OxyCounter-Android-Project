@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OxyCounter</string>
+    <string-array name="type">
+        <item>Incoming</item>
+        <item>Outgoing</item>
+    </string-array>
+    <string-array name="category">
+        <item>Emergency</item>
+        <item>COVID</item>
+        <item>Surgeries</item>
+        <item>HeartRelated</item>
+        <item>Ambulance</item>
+        <item>Other</item>
+    </string-array>
+</resources>
